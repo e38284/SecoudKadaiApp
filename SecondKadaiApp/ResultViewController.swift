@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ResultViewController.swift
 //  SecondKadaiApp
 //
 //  Created by 萩原祐太郎 on 2019/03/15.
@@ -8,26 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-//  遷移先から戻ってくるときに呼ばれるメソッド
-
-    
-    @IBAction func back(_ segue: UIStoryboardSegue) {
-    }
-
-    @IBOutlet weak var nameField: UITextField!
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // 遷移先のインスタンス化
-        let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
-        resultViewController.name = nameField.text!
-    }
+class ResultViewController: UIViewController {
+//  ViewControllerから受け取るための変数
+    var name = ""
+//  変数を表示するラベル
+    @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        label.text = "こんにちは、 \(name) さん"
         // Do any additional setup after loading the view.
     }
     
