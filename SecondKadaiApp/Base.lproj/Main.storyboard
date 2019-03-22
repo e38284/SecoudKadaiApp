@@ -78,8 +78,8 @@
                                     <segue destination="HJc-y0-nLE" kind="unwind" unwindAction="back:" id="j59-8V-qJf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S59-t0-Zwp">
-                                <rect key="frame" x="166" y="128" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S59-t0-Zwp">
+                                <rect key="frame" x="104" y="139" width="166" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -87,12 +87,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="S59-t0-Zwp" firstAttribute="trailing" secondItem="w04-V4-wc8" secondAttribute="trailing" constant="2.5" id="CVK-bp-sKH"/>
+                            <constraint firstItem="S59-t0-Zwp" firstAttribute="centerX" secondItem="mbu-aO-Hb5" secondAttribute="centerX" constant="-0.5" id="JKN-WZ-oC7"/>
                             <constraint firstItem="Fzv-2z-ErW" firstAttribute="bottom" secondItem="w04-V4-wc8" secondAttribute="bottom" constant="315" id="PF9-Z9-6Jo"/>
-                            <constraint firstItem="S59-t0-Zwp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Fzv-2z-ErW" secondAttribute="leading" symbolic="YES" id="YSv-1v-FOI"/>
+                            <constraint firstItem="S59-t0-Zwp" firstAttribute="top" secondItem="Fzv-2z-ErW" secondAttribute="top" constant="119" id="Rqn-l8-hX7"/>
+                            <constraint firstItem="S59-t0-Zwp" firstAttribute="leading" secondItem="Fzv-2z-ErW" secondAttribute="leading" constant="104" id="Yfs-Pq-DwJ"/>
                             <constraint firstItem="w04-V4-wc8" firstAttribute="centerY" secondItem="mbu-aO-Hb5" secondAttribute="centerY" constant="1.5" id="YwT-0k-w7v"/>
                             <constraint firstItem="w04-V4-wc8" firstAttribute="centerX" secondItem="mbu-aO-Hb5" secondAttribute="centerX" constant="2.5" id="ZgK-fG-TWG"/>
-                            <constraint firstItem="S59-t0-Zwp" firstAttribute="top" secondItem="Fzv-2z-ErW" secondAttribute="top" constant="108" id="mc9-Hu-n9S"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fzv-2z-ErW"/>
                     </view>
@@ -103,7 +103,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YD-3h-IgJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="HJc-y0-nLE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="929" y="133"/>
+            <point key="canvasLocation" x="928.79999999999995" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>
